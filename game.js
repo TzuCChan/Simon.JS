@@ -6,3 +6,4 @@ const topRight = document.querySelector('.top-right');
 const bottomLeft = document.querySelector('.bottom-left');
 const bottomRight = document.querySelector('.bottom-right');
 const score = document.querySelector('.score');
+const finalScore = document.querySelector(".final-score");
