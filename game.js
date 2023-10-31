@@ -9,3 +9,5 @@ const score = document.querySelector('.score');
 const finalScore = document.querySelector(".final-score");
 const endInfo = document.querySelector('.end-info');
 const grid = Array.from(document.querySelectorAll('.grid'));
+
+let isGameOn = false;
