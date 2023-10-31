@@ -11,3 +11,4 @@ const endInfo = document.querySelector('.end-info');
 const grid = Array.from(document.querySelectorAll('.grid'));
 
 let isGameOn = false;
+let canClick = false;
