@@ -12,3 +12,4 @@ const grid = Array.from(document.querySelectorAll('.grid'));
 
 let isGameOn = false;
 let canClick = false;
+let sequence = [randomPanel()];
