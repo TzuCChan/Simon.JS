@@ -14,3 +14,4 @@ let isGameOn = false;
 let canClick = false;
 let sequence = [randomPanel()];
 let sequenceToGuess = [...sequence];
+let currentScore = 1;
