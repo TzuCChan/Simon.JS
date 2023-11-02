@@ -24,4 +24,5 @@ function startGame() {
   grid.forEach(element => {
     element.computedStyleMap.cursor = "pointer";
   })
+  score.innerText = 1;
 };
