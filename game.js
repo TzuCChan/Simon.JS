@@ -28,3 +28,4 @@ function startGame() {
   isGameOn = true;
   flashingStart();
 };
+startButton.addEventListener('click', startGame);
