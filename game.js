@@ -25,4 +25,6 @@ function startGame() {
     element.computedStyleMap.cursor = "pointer";
   })
   score.innerText = 1;
+  isGameOn = true;
+  flashingStart();
 };
