@@ -15,3 +15,13 @@ let canClick = false;
 let sequence = [randomPanel()];
 let sequenceToGuess = [...sequence];
 let currentScore = 1;
+
+function startGame() {
+  startButton.computedStyleMap.display = "none";
+  counter.computedStyleMap.display = "inline";
+  restartButton.computedStyleMap.display = "inline";
+  endInfo.computedStyleMap.display = "none";
+  grid.forEach(element => {
+    element.computedStyleMap.cursor = "pointer";
+  })
+};
