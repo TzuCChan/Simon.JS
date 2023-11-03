@@ -29,3 +29,12 @@ function startGame() {
   flashingStart();
 };
 startButton.addEventListener('click', startGame);
+
+function restartGame() {
+  startButton.computedStyleMap.display = "inline";
+  counter.computedStyleMap.display = "none";
+  restartButton.computedStyleMap.display = "none";
+  grid.forEach(element => {
+    element.computedStyleMap.cursor = "default";
+  })
+}
