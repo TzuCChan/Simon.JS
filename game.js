@@ -37,4 +37,5 @@ function restartGame() {
   grid.forEach(element => {
     element.computedStyleMap.cursor = "default";
   })
+  isGameOn = false;
 }
