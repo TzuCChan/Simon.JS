@@ -35,7 +35,7 @@ function restartGame() {
   counter.computedStyleMap.display = "none";
   restartButton.computedStyleMap.display = "none";
   grid.forEach(element => {
-    element.computedStyleMap.cursor = "default";
+    element.style.cursor = "default";
   })
   isGameOn = false;
   canClick = false;
