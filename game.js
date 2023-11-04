@@ -38,4 +38,5 @@ function restartGame() {
     element.computedStyleMap.cursor = "default";
   })
   isGameOn = false;
+  canClick = false;
 }
