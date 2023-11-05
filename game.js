@@ -41,4 +41,6 @@ function restartGame() {
   canClick = false;
   sequence = [randomPanel()];
   sequenceToGuess = [...sequence];
+  endInfo.style.display = "inline";
+  finalScore.innerText = (currentScore - 1);
 }
