@@ -43,4 +43,6 @@ function restartGame() {
   sequenceToGuess = [...sequence];
   endInfo.style.display = "inline";
   finalScore.innerText = (currentScore - 1);
+  currentScore = 1;
 }
+restartButton.addEventListener('click', restartGame);
