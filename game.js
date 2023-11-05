@@ -39,4 +39,6 @@ function restartGame() {
   })
   isGameOn = false;
   canClick = false;
+  sequence = [randomPanel()];
+  sequenceToGuess = [...sequence];
 }
