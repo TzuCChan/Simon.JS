@@ -46,3 +46,7 @@ function restartGame() {
   currentScore = 1;
 }
 restartButton.addEventListener('click', restartGame);
+
+function randomPanel() {
+  return grid[parseInt(Math.random() * grid.length)];
+}
