@@ -50,3 +50,9 @@ restartButton.addEventListener('click', restartGame);
 function randomPanel() {
   return grid[parseInt(Math.random() * grid.length)];
 }
+
+const flash = panel => {
+  return new Promise(resolve => {
+    panel.className += ' white';
+  })
+}
