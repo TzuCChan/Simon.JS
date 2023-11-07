@@ -60,6 +60,10 @@ const flash = panel => {
         ' white',
         ''
       );
-    })
+
+      setTimeout(() => {
+        resolve();
+      }, 250);
+    }, 500)
   });
 };
