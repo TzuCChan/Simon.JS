@@ -70,4 +70,10 @@ const flash = panel => {
 
 const flashingStart = async () => {
   canClick = false;
+  for (const panel of sequence) {
+    if (isGameOn) {
+      await flash(panel);
+    }
+  }
+  canClick = true;
 }
