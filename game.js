@@ -67,3 +67,7 @@ const flash = panel => {
     }, 500)
   });
 };
+
+const flashingStart = async () => {
+  canClick = false;
+}
