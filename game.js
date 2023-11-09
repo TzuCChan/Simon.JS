@@ -89,5 +89,7 @@ const panelClicked = panelClicked => {
       sequenceToGuess = [...sequence];
       flashingStart();
     }
+  } else {
+    restartGame();
   }
 }
