@@ -83,7 +83,11 @@ const panelClicked = panelClicked => {
   const expectedPanel = sequenceToGuess.shift();
   if (expectedPanel === panelClicked.target) {
     if (sequenceToGuess.length === 0) {
-      
+      currentScore += 1;
+      score.innerText = currentScore;
+      sequence.push(randomPanel());
+      sequenceToGuess = [...sequence];
+      flashingStart();
     }
   }
 }
