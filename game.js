@@ -77,3 +77,13 @@ const flashingStart = async () => {
   }
   canClick = true;
 }
+
+const panelClicked = panelClicked => {
+  if (!canClick || !isGameOn) return;
+  const expectedPanel = sequenceToGuess.shift();
+  if (expectedPanel === panelClicked.target) {
+    if (sequenceToGuess.length === 0) {
+      
+    }
+  }
+}
