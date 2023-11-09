@@ -93,3 +93,7 @@ const panelClicked = panelClicked => {
     restartGame();
   }
 }
+
+grid.forEach(element => {
+  element.addEventListener('click', panelClicked);
+})
