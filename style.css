@@ -31,3 +31,7 @@ main {
 .round-counter {
   display: none;
 }
+
+.end-info {
+  display: none;
+}
