@@ -49,12 +49,13 @@ button {
 button:hover {
   transition-duration: 0.1s;
   box-shadow: inset 0px 0px 0px 3px white;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 .start{
   display:
 }
+
 .restart{
   display:
 }
