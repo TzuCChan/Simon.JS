@@ -46,8 +46,8 @@ button {
   cursor: pointer;
 }
 
-/* button:hover {
+button:hover {
   transition-duration: 0.1s;
-  box-shadow: inset 0px 0px 0px 3px white;
-  box-sizing: border-box;
-} */
+  /* box-shadow: inset 0px 0px 0px 3px white; */
+  /* box-sizing: border-box; */
+}
