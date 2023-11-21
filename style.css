@@ -104,4 +104,11 @@ button:hover {
   background: white;
 }
 
-@media screen and (max-width: 485px){}
+@media screen and (max-width: 485px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+}
