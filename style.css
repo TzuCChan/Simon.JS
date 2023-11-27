@@ -114,5 +114,6 @@ button:hover {
   .grid {
     width: 100px;
     height: 100px;
+    margin-top: 0px;
   }
 }
