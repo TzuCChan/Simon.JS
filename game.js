@@ -54,13 +54,11 @@ function randomPanel() {
 const flash = panel => {
   return new Promise(resolve => {
     panel.className += ' white';
-    
     setTimeout(() => {
       panel.className = panel.className.replace(
         ' white',
         ''
       );
-
       setTimeout(() => {
         resolve();
       }, 250);
