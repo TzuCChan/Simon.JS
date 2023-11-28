@@ -31,9 +31,9 @@ function startGame() {
 startButton.addEventListener('click', startGame);
 
 function restartGame() {
-  startButton.computedStyleMap.display = "inline";
-  counter.computedStyleMap.display = "none";
-  restartButton.computedStyleMap.display = "none";
+  startButton.style.display = "inline";
+  counter.style.display = "none";
+  restartButton.style.display = "none";
   grid.forEach(element => {
     element.style.cursor = "default";
   })
