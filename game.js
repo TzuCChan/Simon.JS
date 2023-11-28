@@ -17,12 +17,12 @@ let sequenceToGuess = [...sequence];
 let currentScore = 1;
 
 function startGame() {
-  startButton.computedStyleMap.display = "none";
-  counter.computedStyleMap.display = "inline";
-  restartButton.computedStyleMap.display = "inline";
-  endInfo.computedStyleMap.display = "none";
+  startButton.style.display = "none";
+  counter.style.display = "inline";
+  restartButton.style.display = "inline";
+  endInfo.style.display = "none";
   grid.forEach(element => {
-    element.computedStyleMap.cursor = "pointer";
+    element.style.cursor = "pointer";
   })
   score.innerText = 1;
   isGameOn = true;
