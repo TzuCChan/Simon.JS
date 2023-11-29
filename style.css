@@ -60,14 +60,14 @@ button:hover {
   display: none;
 }
 
-.grid-container{
+.grid-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
 }
 
-.grid{
+.grid {
   width: 200px;
   height: 200px;
   margin: 15px;
@@ -84,23 +84,23 @@ button:hover {
   box-sizing: border-box;
 }
 
-.top-left{
-  background: green;
+.top-left {
+  background: #8FFF00;
 }
 
-.top-right{
-  background: red;
+.top-right {
+  background: #FE0000;
 }
 
-.bottom-right{
-  background: yellow;
+.bottom-right {
+  background: #1E34FF;
 }
 
-.bottom-left{
-  background: blue;
+.bottom-left {
+  background: #BC9300;
 }
 
-.white{
+.white {
   background: white;
 }
 
