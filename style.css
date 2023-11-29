@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Saira Condensed', sans-serif;
@@ -108,14 +108,17 @@ button:hover {
   h1 {
     font-size: 2em;
   }
+
   h2 {
     font-size: 1em;
   }
+  
   .grid {
     width: 100px;
     height: 100px;
     margin-top: 0px;
   }
+
   button {
     font-size: 1.5em;
   }
